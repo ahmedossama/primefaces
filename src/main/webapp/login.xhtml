@@ -55,13 +55,13 @@
 						class="text-muted text-center btn-block btn btn-primary btn-rect">
 						Enter your username and password</p>
 					<p:inputText id="username" styleClass="form-control"
-						value="#{loginBean.userName}" />
+						value="#{loginBean.username1}" />
 					<p:watermark value="user name" for="username"></p:watermark>
 					<p:inputText id="password" type="password"
-						styleClass="form-control" value="#{loginBean.password}" />
+						styleClass="form-control" value="#{loginBean.password1}" />
 
 					<p:commandButton styleClass="btn text-muted text-center btn-danger"
-						actionListener="#{loginBean.foo()}" value="submit"></p:commandButton>
+						actionListener="#{loginBean.signin()}" value="submit"></p:commandButton>
 				</h:form>
 			</div>
 			<div id="forgot" class="tab-pane">
