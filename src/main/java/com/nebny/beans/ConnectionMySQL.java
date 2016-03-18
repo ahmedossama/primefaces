@@ -52,9 +52,10 @@ public class ConnectionMySQL {
 	}
 	
 	
+	
 	public static void main(String[]args) throws ClassNotFoundException, SQLException{
 	
-		signin("admin.username","password");
+		//exists("admin.username1","password1");
 		
 		//ResultQuery("select* from user");
 
